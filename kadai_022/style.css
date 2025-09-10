@@ -37,7 +37,7 @@ main {
     border: 3px solid rgb(238, 204, 204);
     flex-basis: 25%;
     padding: 10px 15px;
-    margin: 20px 20px;
+    margin: 20px 0px;
     /* justify-content: center; */
     /* align-items: center; */
     text-align: center;
@@ -45,7 +45,7 @@ main {
 
 h2 {
     font-size: 25px;
-    border-bottom: 3px dashed rgb(236, 122, 122);
+    border-bottom: 3px dotted rgb(236, 122, 122);
 }
 
 h2::before {
@@ -90,6 +90,6 @@ footer a:hover {
         font-size: 25px;
     }
     #parent {
-        display: block;
+        flex-direction: column;
     }
 }
